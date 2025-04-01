@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="estilo.css">
-    <title>THE GYM</title>
+    <link rel="stylesheet" href=" ./css/main.css">
+    <title>Fitness Gym</title>
 </head>
 <body>
     <!-- MENU -->
     <div class="contenedor-header">
         <header>
-            <h1>THE <span class="txtRojo">GYM</span></h1>
+            <h1>FITNESS <span class="txtRojo">GYM</span></h1>
             <nav id="nav">
                 <a href="#inicio" onclick="seleccionar()">inicio</a>
                 <a href="#nosotros" onclick="seleccionar()">Nosotros</a>
@@ -58,10 +58,10 @@
                     04.ENDURANCE
                 </div>
                 <div class="opcion">
-                    05.YOGA
+                    05.CARDIO
                 </div>
                 <div class="opcion">
-                    06.CARDIO
+                    06.DEFENSA 
                 </div>
             </div>
         </div>
@@ -83,8 +83,7 @@
                         <h2>NOSOTROS</h2>
                     </div>
                 </div>
-                <p class="p-especial">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur necessitatibus quod provident libero, nam corrupti, adipisci ea inventore cum aliquid asperiores pariatur harum sunt. Tempore expedita atque quos ipsum nisi.</p>
+                <p>En FITNESS GYM nos apasiona el fitness y el bienestar. Desde nuestra fundación, nos hemos dedicado a proporcionar un ambiente motivador y profesional para que nuestros socios puedan superarse día a día.</p>
             </div>
         </div>
         <hr>
@@ -114,9 +113,8 @@
                             <span class="frase">LA MEJOR EXPERIENCIA</span>
                             <h2>SERVICIOS</h2>
                         </div>
-                    </div>
-                    <p class="p-especial">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur necessitatibus quod provident libero, nam corrupti, adipisci ea inventore cum aliquid asperiores pariatur harum sunt. Tempore expedita atque quos ipsum nisi.</p>
+                    </div>          
+                    <p>Ofrecemos una amplia variedad de servicios, incluyendo entrenamientos personalizados, clases grupales de alta intensidad, yoga, pilates, asesoramiento nutricional y programas especializados según tus necesidades.</p>
                 </div>
                 <div class="col">
                     <img src="img/servicios.png" alt="">
@@ -129,34 +127,34 @@
                     <td>
                         <i class="fa-solid fa-person-walking"></i>
                         <h3><span class="txtRojo">Clases </span> de Fitness</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis.</p>
+                        <p>Enfocadas en mejorar la condición física general a través de ejercicios funcionales, entrenamiento de resistencia y flexibilidad. Ideales para quienes buscan tonificar su cuerpo y aumentar su energía.</p>
                     </td>
                     <td>
                         <i class="fa-solid fa-dumbbell"></i>
                         <h3><span class="txtRojo">Clases </span> de Crossfit</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis.</p>
+                        <p>Entrenamiento de alta intensidad basado en movimientos funcionales y variados. Desarrolla fuerza, resistencia y agilidad combinando levantamiento de pesas, cardio y gimnasia.</p>
                     </td>
                     <td>
                         <i class="fa-solid fa-mitten"></i>
                         <h3><span class="txtRojo">Clases </span> de Boxeo</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis.</p>
+                        <p>Mejora tu resistencia, fuerza y velocidad con entrenamientos inspirados en el boxeo. Incluyen ejercicios de golpeo al saco, técnicas de defensa y trabajo cardiovascular. Apto para todos los niveles.</p>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <i class="fa-solid fa-clock"></i>
                         <h3><span class="txtRojo">Clases </span> de Enduro</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis.</p>
+                        <p>Sesiones de larga duración que combinan resistencia física y mental. Perfectas para quienes desean mejorar su rendimiento en deportes de resistencia como maratones y triatlones.</p>
                     </td>
                     <td>
                         <i class="fa-solid fa-heart-circle-bolt"></i>
                         <h3><span class="txtRojo">Clases </span> de Cardio</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis.</p>
+                        <p>Rutinas dinámicas diseñadas para quemar calorías y mejorar la salud cardiovascular. Se incluyen ejercicios como HIIT, aeróbicos y circuitos de alta intensidad.</p>
                     </td>
                     <td>
-                        <i class="fa-solid fa-bicycle"></i>
-                        <h3><span class="txtRojo">Clases </span> de Ciclismo</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis.</p>
+                        <i class="fa-solid fa-hand-fist"></i>
+                        <h3><span class="txtRojo">Clases </span> de Defensa Personal</h3>
+                        <p>Aprende técnicas efectivas para protegerte en situaciones de riesgo. Entrenamiento basado en artes marciales, tácticas de evasión y control de oponentes. Ideal para cualquier persona que quiera sentirse más segura.</p>
                     </td>
                 </tr>
             </table>
@@ -179,11 +177,11 @@
                         <h2>COMODIDADES</h2>
                     </div>
                 </div>
-                <p class="p-especial">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="p-especial">Nuestras instalaciones están equipadas con vestidores modernos, sauna, duchas, lockers y una zona de relajación para que disfrutes de la mejor experiencia después de tu entrenamiento.</p>
                 <ul>
-                    <li><span>PILETA</span> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos tenetur, nam cumque adipisci ratione obcaecati impedit inventore eligendi</li>
-                    <li><span>WIFI GRATIS</span> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos tenetur, nam cumque adipisci ratione obcaecati impedit inventore</li>
-                    <li><span>ESTACIONAMIENTO GRATIS</span> - Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos tenetur, nam cumque adipisci ratione obcaecati impedit?</li>
+                    <li><span>PISCINA</span> - Nuestra piscina semiolímpica cuenta con agua climatizada y un sistema de filtrado avanzado para garantizar una experiencia segura e higiénica. Ofrecemos clases de natación para todas las edades, así como sesiones de aquagym y entrenamiento libre.</li>
+                    <li><span>WIFI GRATIS</span> - Mantente conectado en todo momento con nuestra red de WiFi de alta velocidad, disponible en todas las áreas del establecimiento. Perfecto para revisar correos, escuchar música o ver contenido en streaming sin interrupciones.</li>
+                    <li><span>ESTACIONAMIENTO GRATIS</span> - Contamos con un estacionamiento privado y seguro, con cámaras de vigilancia 24/7 y acceso exclusivo para nuestros socios. Además, disponemos de espacios reservados para personas con movilidad reducida.</li>
                 </ul>
             </div>
         </div>
@@ -292,6 +290,7 @@
                 <div class="info">
                     <span class="frase">LA MEJOR EXPERIENCIA</span>
                     <h2>CONTACTO</h2>
+                    <p class="p-especial">¿Listo para empezar? Contáctanos en info@FITNESSGYM.com o visítanos en nuestra sede principal.</p>
                 </div>
             </div>
             <div class="fila">
@@ -309,7 +308,7 @@
             <div class="fila-datos">
                 <div class="col">
                     <i class="fa-solid fa-location-dot"></i>
-                    Avenida Morro 255
+                    Frente calzado Lazo
                 </div>
                 <div class="col">
                     <i class="fa-solid fa-phone"></i>
@@ -317,7 +316,8 @@
                 </div>
                 <div class="col">
                     <i class="fa-regular fa-clock"></i>
-                    Lunes a Sábado, 8:00h - 24:00h
+              Lunes a Viernes, 5:30am - 21:00pm
+              Sabados, 9:00am - 3:00pm
                 </div>
             </div>
         </div>
@@ -326,7 +326,7 @@
 
     <footer>
         <div class="info">
-            <p>2023 - <span class="txtRojo">THE GYM</span> Todos los derechos reservados</p>
+            <p>2025 - <span class="txtRojo">FITNESS GYM</span> Todos los derechos reservados</p>
             <div class="redes">
                 <a href="#">
                     <i class="fa-brands fa-facebook-f"></i>
@@ -343,6 +343,7 @@
             </div>
         </div>
     </footer>
-    <script src="app.js"></script>
+    
+    <script src="./script/app.js"></script>
 </body>
 </html>
