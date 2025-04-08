@@ -14,13 +14,13 @@
         <header>
             <h1>FITNESS <span class="txtRojo">GYM</span></h1>
             <nav id="nav">
-                <a href="#inicio" onclick="seleccionar()">inicio</a>
-                <a href="#nosotros" onclick="seleccionar()">Nosotros</a>
-                <a href="#servicios" onclick="seleccionar()">Servicios</a>
-                <a href="#comodidades" onclick="seleccionar()">Comodidades</a>
-                <a href="#galeria" onclick="seleccionar()">Galería</a>
-                <a href="#equipo" onclick="seleccionar()">Equipo</a>
-                <a href="#contacto" onclick="seleccionar()">Contacto</a>
+            <a href="#inicio">inicio</a>
+                      <a href="#nosotros">Nosotros</a>
+                      <a href="#servicios">Servicios</a>
+                      <a href="#comodidades">Comodidades</a>
+                      <a href="#galeria">Galería</a>
+                      <a href="#equipo">Equipo</a>
+                      <a href="#contacto">Contacto</a>
             </nav>
             <div class="redes">
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -34,8 +34,14 @@
         </header>
     </div>
 
+    <div id="accordion-container" class="accordion-container">
+    <div id="accordion-content" class="accordion-content">
+        Haz clic en un menú para ver información aquí...
+    </div>
+</div>
+
     <!-- SECCION INICIO -->
-    <section id="inicio" class="inicio">
+    <section class="inicio">
         <div class="contenido-seccion">
             <div class="info">
                 <h2>HAZ QUE <span class="txtRojo">OCURRA</span></h2>
@@ -68,7 +74,7 @@
     </section>
 
     <!-- SECCION NOSOTROS -->
-    <section id="nosotros" class="nosotros">
+    <section  class="nosotros">
         <div class="fila">
             <div class="col">
                 <img src="img/nosotros.png" alt="">
@@ -101,7 +107,7 @@
     </section>
 
     <!-- SECCION SERVICIOS -->
-    <section class="servicios" id="servicios">
+    <section class="servicios" >
         <div class="contenido-seccion">
             <div class="fila">
                 <div class="col">
@@ -162,7 +168,7 @@
     </section>
 
     <!-- SECCION COMODIDADES -->
-    <section id="comodidades" class="comodidades">
+    <section class="comodidades">
         <div class="fila">
             <div class="col">
                 <img src="img/nosotros.png" alt="">
@@ -188,7 +194,7 @@
     </section>
 
     <!-- SECCION GALERIA -->
-    <section class="galeria" id="galeria">
+    <section class="galeria" >
         <div class="contenido-seccion">
             <div class="contenedor-titulo">
                 <div class="numero">
@@ -225,7 +231,7 @@
     </section>
     
     <!-- SECCION EQUIPO -->
-    <section class="equipo" id="equipo">
+    <section class="equipo" >
         <div class="contenido-seccion">
             <div class="contenedor-titulo">
                 <div class="numero">
@@ -281,7 +287,7 @@
     </section>
 
     <!-- SECCION CONTACTO -->
-    <section class="contacto" id="contacto">
+    <section class="contacto" >
         <div class="contenido-seccion">
             <div class="contenedor-titulo">
                 <div class="numero">
@@ -345,5 +351,7 @@
     </footer>
     
     <script src="./script/app.js"></script>
+    <script src="./script/accordion.js"></script>
+
 </body>
 </html>

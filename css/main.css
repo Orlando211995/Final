@@ -650,3 +650,16 @@ footer .info a{
         margin-bottom: 10px;
     }
 }
+
+
+.accordion-container {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    border-top: 2px solid #e60026;
+    display: none;
+}
+
+.accordion-content {
+    font-size: 16px;
+}
