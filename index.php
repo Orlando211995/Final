@@ -35,9 +35,7 @@
     </div>
 
     <div id="accordion-container" class="accordion-container">
-    <div id="accordion-content" class="accordion-content">
-        Haz clic en un menú para ver información aquí...
-    </div>
+    <div id="accordion-content" class="accordion-content"></div>
 </div>
 
     <!-- SECCION INICIO -->
