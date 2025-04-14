@@ -229,60 +229,7 @@
     </section>
     
     <!-- SECCION EQUIPO -->
-    <section class="equipo" >
-        <div class="contenido-seccion">
-            <div class="contenedor-titulo">
-                <div class="numero">
-                    05
-                </div>
-                <div class="info">
-                    <span class="frase">LA MEJOR EXPERIENCIA</span>
-                    <h2>EQUIPO</h2>
-                </div>
-            </div>
-            <div class="fila">
-                <div class="col">
-                    <img src="img/e1.png" alt="">
-                    <div class="info">
-                        <h2>MARCOS</h2>
-                        <p>Fitness - Pilates - Yoga</p>
-                        <a href="#">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <img src="img/e2.png" alt="">
-                    <div class="info">
-                        <h2>PATRICIA</h2>
-                        <p>Fitness - Pilates - Yoga</p>
-                        <a href="#">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <img src="img/e3.png" alt="">
-                    <div class="info">
-                        <h2>JUAN</h2>
-                        <p>Fitness - Pilates - Yoga</p>
-                        <a href="#">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section class="team" id="trainers"></section>
 
     <!-- SECCION CONTACTO -->
     <section class="contacto" >
@@ -350,6 +297,6 @@
     
     <script src="./script/app.js"></script>
     <script src="./script/accordion.js"></script>
-
+    <script src="./script/cards.js"></script>
 </body>
 </html>

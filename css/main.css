@@ -662,8 +662,10 @@ footer .info a{
     display: none;
     text-align: center;
     position: absolute;
-    top: 80px; /* puedes ajustar según la altura exacta de tu header */
+    top: 80px; 
     left: 0;
     width: 100%;
     z-index: 100;
 }
+
+
