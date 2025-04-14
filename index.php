@@ -229,7 +229,20 @@
     </section>
     
     <!-- SECCION EQUIPO -->
-    <section class="team" id="trainers"></section>
+    <section class="equipo">
+    <div class="contenido-seccion">
+        <div class="contenedor-titulo">
+            <div class="numero">05</div>
+            <div class="info">
+                <span class="frase">LA MEJOR EXPERIENCIA</span>
+                <h2>EQUIPO</h2>
+            </div>
+        </div>
+        <div class="fila" id="equipo-cards">
+            <!-- Aquí se insertarán los cards desde JavaScript -->
+        </div>
+    </div>
+</section>
 
     <!-- SECCION CONTACTO -->
     <section class="contacto" >

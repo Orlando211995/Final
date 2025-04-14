@@ -1,44 +1,51 @@
+console.log("Cards script loaded.");
 
+document.addEventListener("DOMContentLoaded", function () {
+    const equipo = [
+        {
+            nombre: "MARCOS",
+            especialidad: "Fitness - Pilates - Yoga",
+            imagen: "img/e1.png",
+            facebook: "https://www.facebook.com",
+            instagram: "https://www.instagram.com"
+        },
+        {
+            nombre: "PATRICIA",
+            especialidad: "Fitness - Pilates - Yoga",
+            imagen: "img/e2.png",
+            facebook: "https://www.facebook.com",
+            instagram: "https://www.instagram.com"
+        },
+        {
+            nombre: "JUAN",
+            especialidad: "Fitness - Pilates - Yoga",
+            imagen: "img/e3.png",
+            facebook: "https://www.facebook.com",
+            instagram: "https://www.instagram.com"
+        }
+    ];
 
-const team = [
-    {
-      nombre: "MARCOS",
-      descripcion: "Fitness - Pilates - Yoga",
-      img: "img/marcos.png",
-    },
-    {
-      nombre: "PATRICIA",
-      descripcion: "Fitness - Pilates - Yoga",
-      img: "img/patricia.png",
-    },
-    {
-      nombre: "JUAN",
-      descripcion: "Fitness - Pilates - Yoga",
-      img: "img/juan.png",
-    },
-  ];
-  
-  const trainersSection = document.getElementById("trainers");
-  
-  if (trainersSection) {
-    trainersSection.innerHTML = `
-      <h2 class="heading">Nuestro <span>Equipo</span></h2>
-      <div class="team-container">
-        ${team
-          .map(
-            (t) => `
-          <div class="team-box">
-            <img src="${t.img}" alt="${t.nombre}">
-            <h3>${t.nombre}</h3>
-            <p>${t.descripcion}</p>
-            <div class="social-media">
-              <a href="#"><i class='bx bxl-facebook'></i></a>
-              <a href="#"><i class='bx bxl-twitter'></i></a>
+    const contenedor = document.getElementById("equipo-cards");
+
+    equipo.forEach(persona => {
+        const col = document.createElement("div");
+        col.classList.add("col");
+
+        col.innerHTML = `
+            <img src="${persona.imagen}" alt="${persona.nombre}">
+            <div class="info">
+                <h2>${persona.nombre}</h2>
+                <p>${persona.especialidad}</p>
+                <a href="${persona.facebook}" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="${persona.instagram}" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
             </div>
-          </div>
-        `
-          )
-          .join("")}
-      </div>
-    `;
-  }
+        `;
+
+        contenedor.appendChild(col);
+    });
+});
+
