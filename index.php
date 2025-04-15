@@ -28,9 +28,11 @@
                 <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
             </div>
             <!-- Icono del menu responsive -->
-            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
-                <i class="fa-solid fa-bars"></i>
-            </div>                
+            <div class="hamburger" id="hamburger-icon" onclick="mostrarOcultarMenu()">
+                 <span></span>
+                <span></span>
+                <span></span>
+              </div>             
         </header>
     </div>
 
