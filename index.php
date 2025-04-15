@@ -308,7 +308,7 @@
         </div>
     </footer>
     
-    <script src="./script/app.js"></script>
+    <script src="./script/hambuger-icon.js"></script>
     <script src="./script/accordion.js"></script>
     <script src="./script/cards.js"></script>
 </body>
