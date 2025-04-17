@@ -223,8 +223,9 @@
 </section>
     
     <!-- SECCION EQUIPO -->
-    <section class="equipo">
-    <div class="contenido-seccion">
+    <section class="cards">
+    <div class="equipo">
+        <div class="contenido-seccion">
         <div class="contenedor-titulo">
             <div class="numero">05</div>
             <div class="info">
@@ -234,7 +235,8 @@
         </div>
         <div class="fila" id="equipo-cards">
             <!-- Aquí se insertarán los cards desde JavaScript -->
-        </div>
+          </div>
+       </div>
     </div>
 </section>
 
