@@ -1,4 +1,4 @@
-console.log("Cards script loaded.");
+console.log("cargando cards.");
 
 document.addEventListener("DOMContentLoaded", function () {
     const equipo = [

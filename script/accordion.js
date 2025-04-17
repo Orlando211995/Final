@@ -1,3 +1,4 @@
+console.log("cargando accordion.");
 document.addEventListener("DOMContentLoaded", function () {
     const data = {
         inicio: "En FITNESS GYM creemos en hacer que las cosas sucedan. Tu transformación empieza hoy.",

@@ -23,10 +23,11 @@
                       <a href="#contacto">Contacto</a>
             </nav>
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
             </div>
+
             <!-- Icono del menu responsive -->
             <div class="hamburger" id="hamburger-icon" onclick="mostrarOcultarMenu()">
                  <span></span>

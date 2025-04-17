@@ -1,4 +1,4 @@
-
+console.log("cargando carousel.");
 document.addEventListener('DOMContentLoaded', () => {
     const galeria = document.querySelector('.galeria');
     const carousel = galeria.querySelector('.carousel-container');

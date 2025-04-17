@@ -1,3 +1,4 @@
+console.log("cargando hamburger-icon.");
 let menuVisible = false;
 
 // Función que oculta o muestra el menú
