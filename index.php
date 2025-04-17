@@ -288,16 +288,16 @@
         <div class="info">
             <p>2025 - <span class="txtRojo">FITNESS GYM</span> Todos los derechos reservados</p>
             <div class="redes">
-                <a href="#">
+            <a href="https://www.facebook.com" target="_blank">
                     <i class="fa-brands fa-facebook-f"></i>
                 </a>
-                <a href="#">
+                <a href="https://twitter.com" target="_blank">
                     <i class="fa-brands fa-twitter"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com" target="_blank">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.youtube.com" target="_blank">
                     <i class="fa-brands fa-youtube"></i>
                 </a>
             </div>
