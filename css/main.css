@@ -372,13 +372,7 @@ body{
 .galeria .contenedor-titulo .info h2{
     font-size: 3rem;
 }
-.galeria .fila{
-    display: flex;
-}
-.galeria .fila .col img{
-    width: 100%;
-    display: block;
-}
+
 /* *********** */
 /* ENTRENADORES */
 /* *********** */
@@ -613,40 +607,7 @@ footer .info a{
         max-width: 200px;
     }
 
-    .equipo .fila {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
     
-    .equipo .fila .col {
-        background-color: red;
-        border: 4px solid black;
-        border-radius: 20px;
-        padding: 20px;
-        width: 280px;
-        text-align: center;
-        box-shadow: 0 0 20px rgba(0,0,0,0.3);
-    }
-    
-    .equipo .fila .col img {
-        max-height: 300px;
-        object-fit: contain;
-        width: 100%;
-        background-color: red;
-    }
-    
-    .equipo .fila .info {
-        max-width: 250px;
-        margin: auto;
-    }
-    
-    .equipo .fila .info a {
-        margin: 0 10px;
-        color: white;
-        font-size: 20px;
-    }
 
     
     .contacto .fila {
@@ -722,3 +683,60 @@ footer .info a{
 .hamburger.active span:nth-child(3) {
     transform: rotate(-45deg) translate(6px, -6px);
 }
+
+
+.carousel-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.carousel-container .col {
+    flex: 0 0 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.carousel-container .col img {
+    width: 100%;
+    height: 350px; 
+    object-fit: contain;
+    display: block;
+    border-radius: 10px;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #ff1133;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+    transition: background 0.3s;
+}
+
+.carousel-btn:hover {
+    background: #e00f2f;
+}
+
+.carousel-btn.left {
+    left: 10px;
+}
+
+.carousel-btn.right {
+    right: 10px;
+}
+
+
+

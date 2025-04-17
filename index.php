@@ -194,41 +194,32 @@
     </section>
 
     <!-- SECCION GALERIA -->
-    <section class="galeria" >
-        <div class="contenido-seccion">
-            <div class="contenedor-titulo">
-                <div class="numero">
-                    04
-                </div>
-                <div class="info">
-                    <span class="frase">LA MEJOR EXPERIENCIA</span>
-                    <h2>GALERIA</h2>
-                </div>
-            </div>
-            <div class="fila">
-                <div class="col">
-                    <img src="img/f1.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img src="img/f2.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img src="img/f3.jpg" alt="">
-                </div>
-            </div>
-            <div class="fila">
-                <div class="col">
-                    <img src="img/f4.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img src="img/f5.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img src="img/f6.jpg" alt="">
-                </div>
+<section class="galeria">
+    <div class="contenido-seccion">
+        <div class="contenedor-titulo">
+            <div class="numero">04</div>
+            <div class="info">
+                <span class="frase">LA MEJOR EXPERIENCIA</span>
+                <h2>GALERIA</h2>
             </div>
         </div>
-    </section>
+
+        <div class="carousel-wrapper">
+            <button class="carousel-btn left">&lt;</button>
+
+            <div class="carousel-container">
+                <div class="col"><img src="img/f1.jpg" alt=""></div>
+                <div class="col"><img src="img/f2.jpg" alt=""></div>
+                <div class="col"><img src="img/f3.jpg" alt=""></div>
+                <div class="col"><img src="img/f4.jpg" alt=""></div>
+                <div class="col"><img src="img/f5.jpg" alt=""></div>
+                <div class="col"><img src="img/f6.jpg" alt=""></div>
+            </div>
+
+            <button class="carousel-btn right">&gt;</button>
+        </div>
+    </div>
+</section>
     
     <!-- SECCION EQUIPO -->
     <section class="equipo">
@@ -313,5 +304,6 @@
     <script src="./script/hambuger-icon.js"></script>
     <script src="./script/accordion.js"></script>
     <script src="./script/cards.js"></script>
+    <script src="./script/carousel.js"></script>
 </body>
 </html>
