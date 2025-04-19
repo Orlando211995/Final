@@ -215,6 +215,14 @@
                 <div class="col"><img src="img/f4.jpg" alt=""></div>
                 <div class="col"><img src="img/f5.jpg" alt=""></div>
                 <div class="col"><img src="img/f6.jpg" alt=""></div>
+                <div class="col"><img src="img/f7.jpg" alt=""></div>            
+                <div class="col"><img src="img/f8.jpg" alt=""></div>  
+                <div class="col"><img src="img/f13.jpg" alt=""></div>                            
+                <div class="col"><img src="img/f11.jpg" alt=""></div>
+                <div class="col"><img src="img/f12.jpg" alt=""></div>
+                <div class="col"><img src="img/f9.jpg" alt=""></div> 
+                <div class="col"><img src="img/f10.jpg" alt=""></div>
+
             </div>
 
             <button class="carousel-btn right">&gt;</button>

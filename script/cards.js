@@ -10,15 +10,15 @@ document.addEventListener("DOMContentLoaded", function () {
             instagram: "https://www.instagram.com"
         },
         {
-            nombre: "PATRICIA",
-            especialidad: "Fitness - Pilates - Yoga",
-            imagen: "img/e2.png",
+            nombre: "Natasha",
+            especialidad: "Fitness - Crossfit - Yoga",
+            imagen: "img/natasha1.png",
             facebook: "https://www.facebook.com",
             instagram: "https://www.instagram.com"
         },
         {
             nombre: "JUAN",
-            especialidad: "Fitness - Pilates - Yoga",
+            especialidad: "Fitness -Defensa Personal- Boxeo",
             imagen: "img/e3.png",
             facebook: "https://www.facebook.com",
             instagram: "https://www.instagram.com"
