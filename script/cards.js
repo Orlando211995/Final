@@ -3,23 +3,23 @@ console.log("cargando cards.");
 document.addEventListener("DOMContentLoaded", function () {
     const equipo = [
         {
-            nombre: "MARCOS",
-            especialidad: "Fitness - Pilates - Yoga",
-            imagen: "img/e1.png",
+            nombre: "Franco",
+            especialidad: "Fitness - Pilates - Enduro",
+            imagen: "img/Franco.png",
             facebook: "https://www.facebook.com",
             instagram: "https://www.instagram.com"
         },
         {
-            nombre: "Natasha",
+            nombre: "Isabel",
             especialidad: "Fitness - Crossfit - Yoga",
-            imagen: "img/natasha1.png",
+            imagen: "img/Isabel.png",
             facebook: "https://www.facebook.com",
             instagram: "https://www.instagram.com"
         },
         {
-            nombre: "JUAN",
+            nombre: "Amir",
             especialidad: "Fitness -Defensa Personal- Boxeo",
-            imagen: "img/e3.png",
+            imagen: "img/Amir.png",
             facebook: "https://www.facebook.com",
             instagram: "https://www.instagram.com"
         }
