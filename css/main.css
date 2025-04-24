@@ -552,7 +552,9 @@ footer .info a{
     }
 
     
-
+   /* *********** */
+    /* contacto */
+  /* *********** */
     
     .contacto .fila {
         display: block;
@@ -562,7 +564,7 @@ footer .info a{
         margin-bottom: 20px;
     }
     .contacto .fila-datos{
-        display: block;
+        display: flex;
     }
     .contacto .fila-datos .col{
         margin-bottom: 20px;
@@ -624,13 +626,17 @@ footer .info a{
 }
 
 .cards .equipo .fila{
-    margin: 50px 0;
     display: flex;
-    justify-content: space-around;
+  flex-wrap: wrap;           /* permite bajar tarjetas cuando no caben */
+  justify-content: center;   /* centra las filas de tarjetas */
+  gap: 30px;                 /* espacio fijo entre tarjetas */
+  margin: 50px 0;
 }
 
 .cards .equipo .fila .col{
-    width: 25%;
+    flex: 1 1 280px; 
+    max-width: 350px;           
+  box-sizing: border-box;
     
 }
 

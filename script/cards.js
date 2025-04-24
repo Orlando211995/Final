@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const col = document.createElement("div");
         col.classList.add("col");
 
-        // Aquí agregamos las tarjetas
+        // Aquí se agrego las tarjetas
         col.innerHTML = `
             <img src="${persona.imagen}" alt="${persona.nombre}">
             <div class="info">
